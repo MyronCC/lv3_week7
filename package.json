@@ -4,7 +4,7 @@
   "description": "using classes with node and express",
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "start": "nodemon app"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
     "express": "^4.17.1",
     "hbs": "^4.0.6",
     "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   }
 }
